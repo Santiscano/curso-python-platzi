@@ -44,7 +44,7 @@ class TokenValidationMiddleware(BaseHTTPMiddleware):
         response = await call_next(request)
         return response
 
-
+app.add_middleware(TokenValidationMiddleware)
 
 @app.get("/")
 async def root():
