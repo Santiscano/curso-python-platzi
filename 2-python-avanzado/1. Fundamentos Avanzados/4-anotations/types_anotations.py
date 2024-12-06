@@ -1,0 +1,9 @@
+number: int = 10
+number_2: float = 10.5
+text: str = "Hello, World!"
+boolean: bool = True
+list_: list = [1, 2, 3, 4, 5]
+tuple_: tuple = (1, 2, 3, 4, 5)
+dict_: dict = {"key": "value"}
+set_: set = {1, 2, 3, 4, 5}
+none: None = None
