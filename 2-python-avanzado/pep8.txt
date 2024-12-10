@@ -1,0 +1,11 @@
+https://peps.python.org/pep-0008/
+
+
+Caracteristicas
+1- clases se escriben en CamelCase
+2- variables y funciones snake_case
+3- indentacion de 4 espacios
+4- longitud de linea sugerida de 79
+5- espaciado entre operadores, parametros, etc.
+
+simplicidad, claridad, eficiencia
