@@ -1,0 +1,9 @@
+services:
+  web-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app # esta linea es la que permite que se sincronicen los cambios en el código con el contenedor, siempre que el contenedor esté corriendo
+    ports:
+     - '80:80'

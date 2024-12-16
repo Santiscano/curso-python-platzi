@@ -1,0 +1,7 @@
+services:
+  app-csv:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app # esta linea es la que permite que se sincronicen los cambios en el código con el contenedor, siempre que el contenedor esté corriendo
