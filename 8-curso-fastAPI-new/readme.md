@@ -1,0 +1,1 @@
+para arrancar la aplicacion se inicia con fastapi app/main.py
